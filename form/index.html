@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Prácticas form</title>
+</head>
+
+<body>
+    <h1>Este es un form</h1>
+    
+    <!-- GET se usa para búsquedas ya que no es tan seguro
+    POST Es seguro para transmitir información así como adjuntar archivos -->
+
+    <form action="" method="post">
+
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required>
+        <label for="lastname">Apellido:</label>
+        <input type="text" id="lastname" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="tucorreo@mail.com" required>
+        <label for="age">Edad:</label>
+        <input type="number" id="age" placeholder="debes ser mayor de 18 años" min="18" max="99" required>
+        <div>
+            <p>Sexo: </p>
+            <label for="sex">Hombre: <input type="radio" id="sex" name="sex" value="male"></label>
+            <label for="sex">Mujer: <input type="radio" id="sex" name="sex" value="female"></label>
+        </div>
+        <p>Dejanos tus comentarios o sugerencias: </p>
+        <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        <button>Enviar</button>
+
+    </form>
+</body>
+
+</html>

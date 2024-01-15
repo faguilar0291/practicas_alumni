@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+
+header {
+    height: 15vh;
+    background-color: #363636;
+    padding: 1em;
+}
+
+main {
+    height: 75vh;
+    background-color: #626262;
+}
+
+footer {
+    height: 10vh;
+
+}
